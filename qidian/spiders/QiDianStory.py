@@ -6,6 +6,12 @@ class QiDianStorySpider(scrapy.Spider):
     name = 'qidianstory'
     allowed_domains = ['www.qidian.com']
     start_urls = ['http://www.qidian.com/']
+    #
+    # def __init__(self, name=None, **kwargs):
+    #     super(QiDianStorySpider, self).__init__(self, name=None, **kwargs)
+    #
+    #     # pass
+
 
     def parse(self, response):
 
